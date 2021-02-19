@@ -1,4 +1,5 @@
 ﻿@model comp2139_lab3_wednesday.Models.Contact
+
 @{
     if (ViewBag.Action == "Add")
     {
@@ -12,7 +13,34 @@
     }
 }
 
-<form asp-action="Add" asp-controller="Contact">
+<form asp-action="Edit" asp-controller="Contact">
+    <label for="fName">First Name: </label>
+    <br />
+    <input type="text" name="fName" />
+    <br />
+    <label for="lName">Last Name: </label>
+    <br />
+    <input type="text" name="lName" />
+    <br />
+    <label for="Phone">Phone: </label>
+    <br />
+    <input type="text" name="Phone" />
+    <br />
+    <label for="Email">Email: </label>
+    <br />
+    <input type="text" name="Email" />
+    <br />
+    <label for="Category">Category</label>
+    <br />
+    <input type="text" name="Category" list="categoryList">
+    <datalist id="categoryList">
+       
+    </datalist>
+    <br />
+    <label for="Organization">Organization: </label>
+    <br />
+    <input type="text" name="Organization" />
+    <br />
 
 </form>
 

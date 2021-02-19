@@ -6,6 +6,6 @@
 <h1>Delete Contact</h1>
 <p>Do you really want to delete @Model.Firstname&nbsp;@Model.Lastname?</p>
 <form asp-action="Delete" method="post">
-    <button type="submit">Yes</button>
+    <button asp-action="Delete" asp-controller="Contact" asp-route-id="@Model.ContactId">Yes</button>
     <button asp-controller="Home" asp-action="Index">No</button>
 </form>
