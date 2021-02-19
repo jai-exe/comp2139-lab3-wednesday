@@ -154,3 +154,6 @@ C:\Users\jaiis\source\repos\Lab3\obj\Debug\netcoreapp3.1\comp2139-lab3-wednesday
 C:\Users\jaiis\source\repos\Lab3\obj\Debug\netcoreapp3.1\comp2139-lab3-wednesday.dll
 C:\Users\jaiis\source\repos\Lab3\obj\Debug\netcoreapp3.1\comp2139-lab3-wednesday.pdb
 C:\Users\jaiis\source\repos\Lab3\obj\Debug\netcoreapp3.1\comp2139-lab3-wednesday.genruntimeconfig.cache
+C:\Users\jaiis\source\repos\Lab3\obj\Debug\netcoreapp3.1\Razor\Views\Contact\Delete.cshtml.g.cs
+C:\Users\jaiis\source\repos\Lab3\obj\Debug\netcoreapp3.1\Razor\Views\Contact\Details.cshtml.g.cs
+C:\Users\jaiis\source\repos\Lab3\obj\Debug\netcoreapp3.1\Razor\Views\Contact\Edit.cshtml.g.cs

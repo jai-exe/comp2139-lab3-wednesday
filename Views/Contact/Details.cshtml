@@ -1,3 +1,44 @@
-﻿@{
+﻿@model comp2139_lab3_wednesday.Models.Contact
+@{
     ViewBag.Title = "Contact Details";
+    
 }
+
+<h2>Contact Details</h2>
+<table>
+
+    <tr>
+        <th>Name:</th>
+        <td>@Model.Firstname&nbsp;@Model.Lastname</td>
+    </tr>
+    <tr>
+        <th>Phone:</th>
+        <td>@Model.Phone</td>
+    </tr>
+    <tr>
+        <th>Email:</th>
+        <td>@Model.Email</td>
+    </tr>
+    <tr>
+        <th>Category:</th>
+        <td>@Model.Category.Name</td>
+    </tr>
+    <tr>
+        <th>Organization:</th>
+        <td>@Model.Organization</td>
+    </tr>
+    <tr>
+        <th>Date added:</th>
+        <td>@Model.DateAdded</td>
+    </tr>
+    <tr>
+        <td>
+            <a asp-controller="Contact" asp-action="Edit" asp-route-id="@Model.ContactId"
+               asp-route-slug="@Model.slug">Edit</a>
+            <a asp-controller="Contact" asp-action="Delete" asp-route-id="@Model.ContactId"
+               asp-route-slug="@Model.slug">Delete</a>
+            <a asp-controller="Home" asp-action="Index">Home</a>
+        </td>
+    </tr>
+
+</table>
